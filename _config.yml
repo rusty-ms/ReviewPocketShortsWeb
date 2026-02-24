@@ -1,0 +1,33 @@
+title: "Review Pocket Shorts"
+description: "Daily short-form Amazon product reviews on YouTube Shorts. Watch, decide, buy."
+url: "https://rusty-ms.github.io"
+baseurl: "/ReviewPocketShortsWeb"
+
+# GitHub Pages settings
+theme: null   # pure static site, no Jekyll theme
+plugins: []
+
+# SEO / social
+author: "Review Pocket Shorts"
+twitter:
+  username: reviewpocketshorts
+social:
+  name: "Review Pocket Shorts"
+  links:
+    - https://www.youtube.com/@ReviewPocketShorts
+    - https://www.instagram.com/review.pocket.shorts/
+
+# Collections (optional, for future Jekyll migration)
+collections:
+  products:
+    output: true
+    permalink: /products/:name/
+
+# Exclude from build
+exclude:
+  - scripts/
+  - "*.py"
+  - "*.sh"
+  - README.md
+  - Gemfile
+  - Gemfile.lock

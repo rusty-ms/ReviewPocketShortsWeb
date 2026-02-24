@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Review Pocket Shorts — Daily Amazon Product Reviews & Deals</title>
+  <meta name="description" content="Daily short-form reviews of the best trending Amazon products. Watch YouTube Shorts, find today's best deal, and shop with confidence." />
+  <link rel="canonical" href="https://rusty-ms.github.io/ReviewPocketShortsWeb/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:site_name"   content="Review Pocket Shorts" />
+  <meta property="og:title"       content="Review Pocket Shorts — Daily Amazon Product Reviews" />
+  <meta property="og:description" content="Daily short-form reviews of the best trending Amazon products." />
+  <meta property="og:url"         content="https://rusty-ms.github.io/ReviewPocketShortsWeb/" />
+  <meta property="og:image"       content="https://rusty-ms.github.io/ReviewPocketShortsWeb/assets/og-default.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Review Pocket Shorts — Daily Amazon Deals" />
+  <meta name="twitter:description" content="Bite-sized Amazon product reviews. Watch, decide, buy." />
+  <meta name="twitter:image"       content="https://rusty-ms.github.io/ReviewPocketShortsWeb/assets/og-default.jpg" />
+
+  <!-- Structured Data: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Review Pocket Shorts",
+    "url": "https://rusty-ms.github.io/ReviewPocketShortsWeb/",
+    "description": "Daily short-form Amazon product reviews on YouTube Shorts",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Review Pocket Shorts",
+      "sameAs": [
+        "https://www.youtube.com/@ReviewPocketShorts",
+        "https://www.instagram.com/review.pocket.shorts/"
+      ]
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛍️</text></svg>" />
+</head>
+<body>
+
+  <!-- ── Header ─────────────────────────────── -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <span class="logo-icon">🛍️</span>
+        <span class="logo-text">Review Pocket <span class="gold">Shorts</span></span>
+      </a>
+      <nav class="header-nav">
+        <a href="https://www.youtube.com/@ReviewPocketShorts" target="_blank" rel="noopener" class="nav-link yt-link">
+          <svg width="20" height="14" viewBox="0 0 20 14" fill="none"><path d="M19.58 2.19A2.5 2.5 0 0 0 17.82.43C16.25 0 10 0 10 0S3.75 0 2.18.43A2.5 2.5 0 0 0 .42 2.19C0 3.76 0 7 0 7s0 3.24.42 4.81A2.5 2.5 0 0 0 2.18 13.57C3.75 14 10 14 10 14s6.25 0 7.82-.43a2.5 2.5 0 0 0 1.76-1.76C20 10.24 20 7 20 7s0-3.24-.42-4.81ZM8 10V4l5.2 3L8 10Z" fill="#FF0000"/></svg>
+          YouTube
+        </a>
+        <a href="https://www.instagram.com/review.pocket.shorts/" target="_blank" rel="noopener" class="nav-link ig-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="url(#ig)" stroke-width="2"/><circle cx="12" cy="12" r="4" stroke="url(#ig)" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1" fill="url(#ig)"/><defs><linearGradient id="ig" x1="0" y1="24" x2="24" y2="0"><stop offset="0%" stop-color="#f09433"/><stop offset="25%" stop-color="#e6683c"/><stop offset="50%" stop-color="#dc2743"/><stop offset="75%" stop-color="#cc2366"/><stop offset="100%" stop-color="#bc1888"/></linearGradient></defs></svg>
+          Instagram
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ── Hero: Product of the Day ───────────── -->
+  <section id="hero" class="hero-section" aria-label="Product of the Day">
+    <div class="container">
+      <div class="hero-label">⭐ Product of the Day</div>
+      <div id="hero-content" class="hero-grid">
+        <!-- Populated by main.js -->
+        <div class="hero-skeleton">
+          <div class="skeleton-video"></div>
+          <div class="skeleton-text">
+            <div class="skeleton-line wide"></div>
+            <div class="skeleton-line medium"></div>
+            <div class="skeleton-line short"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Trending Grid ───────────────────────── -->
+  <section id="trending" class="trending-section">
+    <div class="container">
+      <h2 class="section-title">🔥 Trending Products</h2>
+      <p class="section-sub">Fresh daily reviews — watch the Short, check the deal.</p>
+      <div id="product-grid" class="product-grid">
+        <!-- Populated by main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ─────────────────────────────── -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">🛍️</span>
+        <span class="logo-text">Review Pocket <span class="gold">Shorts</span></span>
+      </div>
+      <p class="footer-desc">Bite-sized reviews for smart shoppers. Watch the Short, skip the scroll.</p>
+      <div class="footer-links">
+        <a href="https://www.youtube.com/@ReviewPocketShorts" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://www.instagram.com/review.pocket.shorts/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.amazon.com?tag=reviewpockets-20" target="_blank" rel="noopener">Amazon Deals</a>
+        <a href="sitemap.xml" rel="noopener">Sitemap</a>
+      </div>
+      <p class="footer-legal">
+        As an Amazon Associate, we earn from qualifying purchases.
+        © <span id="footer-year"></span> Review Pocket Shorts. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+  <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

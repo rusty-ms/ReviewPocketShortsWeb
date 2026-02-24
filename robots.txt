@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rusty-ms.github.io/ReviewPocketShortsWeb/sitemap.xml
