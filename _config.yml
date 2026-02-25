@@ -1,7 +1,7 @@
 title: "Review Pocket Shorts"
 description: "Daily short-form Amazon product reviews on YouTube Shorts. Watch, decide, buy."
-url: "https://rusty-ms.github.io"
-baseurl: "/ReviewPocketShortsWeb"
+url: "https://reviewpocketshorts.com"
+baseurl: ""
 
 # GitHub Pages settings
 theme: null   # pure static site, no Jekyll theme
