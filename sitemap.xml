@@ -7,21 +7,35 @@
     <loc>https://rusty-ms.github.io/ReviewPocketShortsWeb/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <lastmod>2026-02-24</lastmod>
+    <lastmod>2026-02-25</lastmod>
   </url>
 
-  <!-- Product Pages (pipeline will regenerate this section) -->
+  <!-- Product Pages -->
   <!-- BEGIN_PRODUCTS -->
+
+  <url>
+    <loc>https://rusty-ms.github.io/ReviewPocketShortsWeb/products/B08DFPV5RP.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-02-24</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/298XI7DynBk/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Hydro Flask 32 oz Wide Mouth Water Bottle — Review</video:title>
+      <video:description>The Hydro Flask 32oz keeps drinks cold for 24 hours and hot for 12. Durable, leak-proof, and backed by a lifetime warranty — over 89k five-star reviews.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/298XI7DynBk</video:player_loc>
+    </video:video>
+  </url>
+
   <url>
     <loc>https://rusty-ms.github.io/ReviewPocketShortsWeb/products/B09B8YWXDF.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-02-24</lastmod>
     <video:video>
-      <video:thumbnail_loc>https://m.media-amazon.com/images/I/71JuEPNWRoL._AC_SL1500_.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/OJDG6nGCToA/maxresdefault.jpg</video:thumbnail_loc>
       <video:title>Instant Pot Duo 7-in-1 Electric Pressure Cooker — Review</video:title>
-      <video:description>The Instant Pot Duo replaces 7 kitchen appliances and cuts cook times by up to 70%.</video:description>
-      <video:player_loc>https://www.youtube.com/embed/dQw4w9WgXcQ</video:player_loc>
+      <video:description>The Instant Pot Duo replaces 7 kitchen appliances and cuts cook times by up to 70%. Over 145k five-star reviews make it the best-selling pressure cooker on Amazon.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/OJDG6nGCToA</video:player_loc>
     </video:video>
   </url>
   <!-- END_PRODUCTS -->

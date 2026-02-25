@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T18:39:00Z",
+  "updated": "2026-02-25T15:00:00Z",
   "featured": "B08DFPV5RP",
   "products": [
     {
@@ -10,10 +10,10 @@
       "review_count": 89500,
       "category": "Sports",
       "affiliate_url": "https://www.amazon.com/dp/B08DFPV5RP?tag=reviewpockets-20",
-      "image_url": "https://m.media-amazon.com/images/I/51mRer3IDVL._AC_SL1500_.jpg",
+      "image_url": "https://i.ytimg.com/vi/298XI7DynBk/hqdefault.jpg",
       "youtube_url": "https://www.youtube.com/shorts/298XI7DynBk",
       "youtube_id": "298XI7DynBk",
-      "page_url": "/products/B08DFPV5RP.html",
+      "page_url": "/ReviewPocketShortsWeb/products/B08DFPV5RP.html",
       "posted_at": "2026-02-24T18:39:00Z",
       "script_summary": "The Hydro Flask 32oz keeps drinks cold for 24 hours and hot for 12. Durable, leak-proof, and backed by a lifetime warranty — over 89k five-star reviews."
     },
@@ -25,27 +25,12 @@
       "review_count": 145000,
       "category": "Kitchen",
       "affiliate_url": "https://www.amazon.com/dp/B09B8YWXDF?tag=reviewpockets-20",
-      "image_url": "https://m.media-amazon.com/images/I/71V1ThFHssL._AC_SL1500_.jpg",
+      "image_url": "https://i.ytimg.com/vi/OJDG6nGCToA/maxresdefault.jpg",
       "youtube_url": "https://www.youtube.com/shorts/OJDG6nGCToA",
       "youtube_id": "OJDG6nGCToA",
-      "page_url": "/products/B09B8YWXDF.html",
+      "page_url": "/ReviewPocketShortsWeb/products/B09B8YWXDF.html",
       "posted_at": "2026-02-24T17:35:00Z",
       "script_summary": "The Instant Pot Duo replaces 7 kitchen appliances and cuts cook times by up to 70%. Over 145k five-star reviews make it the best-selling pressure cooker on Amazon."
-    },
-    {
-      "asin": "B07PXGQC1Q",
-      "title": "COSRX Advanced Snail 96 Mucin Power Essence",
-      "price": "$25.00",
-      "rating": 4.5,
-      "review_count": 67000,
-      "category": "Beauty",
-      "affiliate_url": "https://www.amazon.com/dp/B07PXGQC1Q?tag=reviewpockets-20",
-      "image_url": "https://m.media-amazon.com/images/I/61OdG5TRrpL._AC_SL1000_.jpg",
-      "youtube_url": "https://www.youtube.com/shorts/KO1xAyrK0EI",
-      "youtube_id": "KO1xAyrK0EI",
-      "page_url": "/products/B07PXGQC1Q.html",
-      "posted_at": "2026-02-24T17:25:00Z",
-      "script_summary": "COSRX Snail Essence is a cult K-beauty product with 96% snail mucin that hydrates, repairs, and gives your skin a visible glow. 67k five-star reviews."
     }
   ]
 }
