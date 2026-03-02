@@ -7,12 +7,24 @@
     <loc>https://reviewpocketshorts.com/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <lastmod>2026-02-26</lastmod>
+    <lastmod>2026-03-02</lastmod>
   </url>
 
   <!-- Product Pages -->
   <!-- BEGIN_PRODUCTS -->
 
+  <url>
+    <loc>https://reviewpocketshorts.com/products/B0DFY92NDB.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-02</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/1FaKmKPmwg0/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>CENTELLIAN 24 Madeca Cream Time Reverse (1.69fl oz) - Advanced Fast-Absorbing &amp;amp; Nourishing, Hydrates, Firms &amp;amp; Reduces Wrinkles, Low Irritation, Korean Skin Care Centella Asiatica, Collagen — Review</video:title>
+      <video:description>Are you ready to reverse time on your skin? Let’s talk about the CENTELLIAN 24 Madeca Cream! This miracle cream is all about hydration, firmness, and reducing those pesky wrinkles.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/1FaKmKPmwg0</video:player_loc>
+    </video:video>
+  </url>
   <url>
     <loc>https://reviewpocketshorts.com/products/B0FH2BSWDH.html</loc>
     <changefreq>weekly</changefreq>

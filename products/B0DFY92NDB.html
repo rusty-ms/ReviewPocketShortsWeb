@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<!--
+  TEMPLATE: products/example.html
+  ─────────────────────────────────────────────
+  Pipeline generates products/{ASIN}.html by replacing template variables.
+  Variables use {{VARIABLE_NAME}} format.
+
+  Required substitutions:
+    B0DFY92NDB            - Amazon ASIN  (e.g. B09B8YWXDF)
+    CENTELLIAN 24 Madeca Cream Time Reverse (1.69fl oz) - Advanced Fast-Absorbing &amp; Nourishing, Hydrates, Firms &amp; Reduces Wrinkles, Low Irritation, Korean Skin Care Centella Asiatica, Collagen           - Product title
+    Beauty        - Product category
+    $32.00           - Price string (e.g. $79.99)
+    32.00   - Numeric price (e.g. 79.99)
+    4.6          - Rating float (e.g. 4.8)
+    2543    - Review count integer
+    https://www.amazon.com/dp/B0DFY92NDB?tag=reviewpockets-20   - Amazon affiliate URL
+    https://i.ytimg.com/vi/1FaKmKPmwg0/maxresdefault.jpg       - Product image URL
+    1FaKmKPmwg0      - YouTube video ID
+    https://www.youtube.com/shorts/1FaKmKPmwg0     - Full YouTube Shorts URL
+    Are you ready to reverse time on your skin? Let’s talk about the CENTELLIAN 24 Madeca Cream! This miracle cream is all about hydration, firmness, and reducing those pesky wrinkles.  - 1-2 sentence video summary
+    2026-03-02     - ISO date posted
+    https://reviewpocketshorts.com/products/B0DFY92NDB.html   - Full canonical URL for this page
+    CENTELLIAN 24 Madeca Cream Time Reverse (1.69fl oz) - Advanced Fast-Absorbing &amp; Nourishing, Hydrates, Firms &amp; Reduces Wrinkles, Low Irritation, Korean Skin Care Centella Asiatica, Collagen Review — Is It Worth It? | Review Pocket Shorts      - SEO title (e.g. "Instant Pot Review — Best Kitchen Gadget 2026")
+    CENTELLIAN 24 Madeca Cream Time Reverse (1.69fl oz) - Advanced Fast-Absorbing &amp; Nourishing, Hydrates, Firms &amp; Reduces Wrinkles, Low Irritation, ...- Meta description
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>CENTELLIAN 24 Madeca Cream Time Reverse (1.69fl oz) - Advanced Fast-Absorbing &amp; Nourishing, Hydrates, Firms &amp; Reduces Wrinkles, Low Irritation, Korean Skin Care Centella Asiatica, Collagen Review — Is It Worth It? | Review Pocket Shorts</title>
+  <meta name="description" content="CENTELLIAN 24 Madeca Cream Time Reverse (1.69fl oz) - Advanced Fast-Absorbing &amp; Nourishing, Hydrates, Firms &amp; Reduces Wrinkles, Low Irritation, ..." />
+  <link rel="canonical" href="https://reviewpocketshorts.com/products/B0DFY92NDB.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="video.other" />
+  <meta property="og:site_name"   content="Review Pocket Shorts" />
+  <meta property="og:title"       content="CENTELLIAN 24 Madeca Cream Time Reverse (1.69fl oz) - Advanced Fast-Absorbing &amp; Nourishing, Hydrates, Firms &amp; Reduces Wrinkles, Low Irritation, Korean Skin Care Centella Asiatica, Collagen Review — Is It Worth It? | Review Pocket Shorts" />
+  <meta property="og:description" content="CENTELLIAN 24 Madeca Cream Time Reverse (1.69fl oz) - Advanced Fast-Absorbing &amp; Nourishing, Hydrates, Firms &amp; Reduces Wrinkles, Low Irritation, ..." />
+  <meta property="og:url"         content="https://reviewpocketshorts.com/products/B0DFY92NDB.html" />
+  <meta property="og:image"       content="https://i.ytimg.com/vi/1FaKmKPmwg0/maxresdefault.jpg" />
+  <meta property="og:video"       content="https://www.youtube.com/embed/1FaKmKPmwg0" />
+  <meta property="og:video:type"  content="text/html" />
+  <meta property="og:video:width" content="1080" />
+  <meta property="og:video:height" content="1920" />
+
+  <!-- Twitter Player Card -->
+  <meta name="twitter:card"             content="player" />
+  <meta name="twitter:title"            content="CENTELLIAN 24 Madeca Cream Time Reverse (1.69fl oz) - Advanced Fast-Absorbing &amp; Nourishing, Hydrates, Firms &amp; Reduces Wrinkles, Low Irritation, Korean Skin Care Centella Asiatica, Collagen Review — Is It Worth It? | Review Pocket Shorts" />
+  <meta name="twitter:description"      content="CENTELLIAN 24 Madeca Cream Time Reverse (1.69fl oz) - Advanced Fast-Absorbing &amp; Nourishing, Hydrates, Firms &amp; Reduces Wrinkles, Low Irritation, ..." />
+  <meta name="twitter:image"            content="https://i.ytimg.com/vi/1FaKmKPmwg0/maxresdefault.jpg" />
+  <meta name="twitter:player"           content="https://www.youtube.com/embed/1FaKmKPmwg0" />
+  <meta name="twitter:player:width"     content="1080" />
+  <meta name="twitter:player:height"    content="1920" />
+
+  <!-- JSON-LD: VideoObject + Product -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "VideoObject",
+        "name": "CENTELLIAN 24 Madeca Cream Time Reverse (1.69fl oz) - Advanced Fast-Absorbing &amp; Nourishing, Hydrates, Firms &amp; Reduces Wrinkles, Low Irritation, Korean Skin Care Centella Asiatica, Collagen Review",
+        "description": "Are you ready to reverse time on your skin? Let’s talk about the CENTELLIAN 24 Madeca Cream! This miracle cream is all about hydration, firmness, and reducing those pesky wrinkles.",
+        "thumbnailUrl": "https://i.ytimg.com/vi/1FaKmKPmwg0/maxresdefault.jpg",
+        "embedUrl": "https://www.youtube.com/embed/1FaKmKPmwg0",
+        "uploadDate": "2026-03-02",
+        "duration": "PT60S",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Review Pocket Shorts",
+          "url": "https://www.youtube.com/@ReviewPocketShorts",
+          "sameAs": [
+            "https://www.youtube.com/@ReviewPocketShorts",
+            "https://www.instagram.com/review.pocket.shorts/"
+          ]
+        },
+        "contentUrl": "https://www.youtube.com/shorts/1FaKmKPmwg0",
+        "url": "https://reviewpocketshorts.com/products/B0DFY92NDB.html"
+      },
+      {
+        "@type": "Product",
+        "name": "CENTELLIAN 24 Madeca Cream Time Reverse (1.69fl oz) - Advanced Fast-Absorbing &amp; Nourishing, Hydrates, Firms &amp; Reduces Wrinkles, Low Irritation, Korean Skin Care Centella Asiatica, Collagen",
+        "image": "https://i.ytimg.com/vi/1FaKmKPmwg0/maxresdefault.jpg",
+        "description": "Are you ready to reverse time on your skin? Let’s talk about the CENTELLIAN 24 Madeca Cream! This miracle cream is all about hydration, firmness, and reducing those pesky wrinkles.",
+        "category": "Beauty",
+        "url": "https://www.amazon.com/dp/B0DFY92NDB?tag=reviewpockets-20",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://www.amazon.com/dp/B0DFY92NDB?tag=reviewpockets-20",
+          "priceCurrency": "USD",
+          "price": "32.00",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@type": "Organization",
+            "name": "Amazon"
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "reviewCount": "2543",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "review": {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4.6",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Organization",
+            "name": "Review Pocket Shorts"
+          }
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://rusty-ms.github.io/ReviewPocketShortsWeb/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "CENTELLIAN 24 Madeca Cream Time Reverse (1.69fl oz) - Advanced Fast-Absorbing &amp; Nourishing, Hydrates, Firms &amp; Reduces Wrinkles, Low Irritation, Korean Skin Care Centella Asiatica, Collagen Review",
+            "item": "https://reviewpocketshorts.com/products/B0DFY92NDB.html"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="../assets/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛍️</text></svg>" />
+
+  <style>
+    /* Product page extras */
+    .product-hero {
+      background: linear-gradient(135deg, var(--navy-mid) 0%, var(--navy-lt) 100%);
+      padding: 2.5rem 0 3rem;
+      border-bottom: 1px solid rgba(255,215,0,0.15);
+    }
+    .product-layout {
+      display: grid;
+      grid-template-columns: 360px 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+    @media (max-width: 768px) {
+      .product-layout { grid-template-columns: 1fr; }
+    }
+    .breadcrumb {
+      font-size: 0.82rem;
+      color: var(--gray-500);
+      margin-bottom: 1.5rem;
+    }
+    .breadcrumb a { color: var(--gold); }
+    .product-h1 {
+      font-size: clamp(1.4rem, 3.5vw, 2.2rem);
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+    .product-details-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    .product-details-table tr:not(:last-child) td {
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+    .product-details-table td {
+      padding: 0.65rem 0;
+      font-size: 0.92rem;
+    }
+    .product-details-table td:first-child {
+      color: var(--gray-500);
+      width: 35%;
+    }
+    .product-details-table td:last-child {
+      color: var(--white);
+      font-weight: 600;
+    }
+    .summary-section {
+      background: var(--navy-mid);
+      border-left: 4px solid var(--gold);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      padding: 1.25rem 1.5rem;
+      margin-top: 1.5rem;
+      font-size: 1rem;
+      line-height: 1.7;
+      color: var(--gray-300);
+    }
+    .more-section {
+      padding: 3rem 0;
+      background: var(--navy);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── Header ── -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../" class="logo">
+        <span class="logo-icon">🛍️</span>
+        <span class="logo-text">Review Pocket <span class="gold">Shorts</span></span>
+      </a>
+      <nav class="header-nav">
+        <a href="https://www.youtube.com/@ReviewPocketShorts" target="_blank" rel="noopener" class="nav-link yt-link">
+          ▶ YouTube
+        </a>
+        <a href="https://www.instagram.com/review.pocket.shorts/" target="_blank" rel="noopener" class="nav-link ig-link">
+          Instagram
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ── Product Hero ── -->
+  <section class="product-hero" aria-label="Product Review">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../">Home</a> &rsaquo; Beauty &rsaquo; CENTELLIAN 24 Madeca Cream Time Reverse (1.69fl oz) - Advanced Fast-Absorbing &amp; Nourishing, Hydrates, Firms &amp; Reduces Wrinkles, Low Irritation, Korean Skin Care Centella Asiatica, Collagen
+      </nav>
+
+      <div class="product-layout">
+
+        <!-- Left: Video Embed -->
+        <div>
+          <div class="yt-embed-wrap">
+            <iframe
+              src="https://www.youtube.com/embed/1FaKmKPmwg0?autoplay=0&rel=0&modestbranding=1"
+              title="CENTELLIAN 24 Madeca Cream Time Reverse (1.69fl oz) - Advanced Fast-Absorbing &amp; Nourishing, Hydrates, Firms &amp; Reduces Wrinkles, Low Irritation, Korean Skin Care Centella Asiatica, Collagen Review — Review Pocket Shorts"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Right: Product Info -->
+        <div>
+          <span class="hero-category">Beauty</span>
+          <h1 class="product-h1">CENTELLIAN 24 Madeca Cream Time Reverse (1.69fl oz) - Advanced Fast-Absorbing &amp; Nourishing, Hydrates, Firms &amp; Reduces Wrinkles, Low Irritation, Korean Skin Care Centella Asiatica, Collagen Review</h1>
+
+          <div class="hero-meta" style="margin-bottom:1.25rem;">
+            <span class="hero-price">$32.00</span>
+            <span class="hero-rating">
+              <span class="stars">★★★★★</span>
+              <span>4.6 (2543 reviews)</span>
+            </span>
+          </div>
+
+          <div class="hero-cta">
+            <a
+              href="https://www.amazon.com/dp/B0DFY92NDB?tag=reviewpockets-20"
+              target="_blank"
+              rel="noopener sponsored"
+              class="btn btn-amazon"
+            >🛒 Buy on Amazon</a>
+            <a
+              href="https://www.youtube.com/shorts/1FaKmKPmwg0"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-yt"
+            >▶ Watch on YouTube</a>
+          </div>
+
+          <table class="product-details-table">
+            <tr><td>Price</td>      <td>$32.00</td></tr>
+            <tr><td>Rating</td>     <td>⭐ 4.6 / 5.0</td></tr>
+            <tr><td>Reviews</td>    <td>2543</td></tr>
+            <tr><td>Category</td>   <td>Beauty</td></tr>
+            <tr><td>ASIN</td>       <td>B0DFY92NDB</td></tr>
+            <tr><td>Reviewed</td>   <td>2026-03-02</td></tr>
+          </table>
+
+          <div class="summary-section">
+            <strong>📝 Quick Review:</strong><br/>
+            Are you ready to reverse time on your skin? Let’s talk about the CENTELLIAN 24 Madeca Cream! This miracle cream is all about hydration, firmness, and reducing those pesky wrinkles.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── More Products ── -->
+  <section class="more-section">
+    <div class="container">
+      <h2 class="section-title">🔥 More Trending Products</h2>
+      <p class="section-sub">Fresh reviews every day — watch the Short, grab the deal.</p>
+      <div id="product-grid" class="product-grid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">🛍️</span>
+        <span class="logo-text">Review Pocket <span class="gold">Shorts</span></span>
+      </div>
+      <p class="footer-desc">Bite-sized reviews for smart shoppers.</p>
+      <div class="footer-links">
+        <a href="../">Home</a>
+        <a href="https://www.youtube.com/@ReviewPocketShorts" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://www.instagram.com/review.pocket.shorts/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.amazon.com?tag=reviewpockets-20" target="_blank" rel="noopener">Amazon</a>
+      </div>
+      <p class="footer-legal">
+        As an Amazon Associate, we earn from qualifying purchases.
+        © <span id="footer-year"></span> Review Pocket Shorts.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Load more products from products.json (exclude current ASIN)
+    const CURRENT_ASIN = 'B0DFY92NDB';
+    fetch('../products.json?v=' + Date.now())
+      .then(r => r.json())
+      .then(data => {
+        const others = (data.products || []).filter(p => p.asin !== CURRENT_ASIN).slice(0, 8);
+        const grid = document.getElementById('product-grid');
+        if (!grid) return;
+        if (others.length === 0) {
+          grid.innerHTML = '<div class="error-state" style="grid-column:1/-1"><p>More reviews coming soon!</p></div>';
+          return;
+        }
+        others.forEach(p => {
+          const card = document.createElement('article');
+          card.className = 'product-card';
+          const pageUrl = p.page_url || p.affiliate_url;
+          card.innerHTML = `
+            <a href="${pageUrl}" class="card-thumb">
+              ${p.image_url ? `<img src="${p.image_url}" alt="${p.title}" loading="lazy"/>` : '<div style="height:200px;display:flex;align-items:center;justify-content:center;font-size:3rem;">🛍️</div>'}
+              <span class="card-play-badge">▶ SHORT</span>
+            </a>
+            <div class="card-body">
+              <span class="card-category">${p.category || 'Product'}</span>
+              <h2 class="card-title"><a href="${pageUrl}" style="color:inherit;text-decoration:none;">${p.title}</a></h2>
+              ${p.rating ? `<div class="card-rating"><span class="stars">★★★★★</span><span>${p.rating}</span></div>` : ''}
+              <div class="card-price">${p.price || ''}</div>
+            </div>
+            <div class="card-footer">
+              <a href="${p.affiliate_url}" target="_blank" rel="noopener sponsored" class="card-btn-amz">🛒 Buy Now</a>
+              <a href="${pageUrl}" class="card-btn-review">📺 Review</a>
+            </div>`;
+          grid.appendChild(card);
+        });
+      })
+      .catch(() => {});
+
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
