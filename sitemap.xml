@@ -7,12 +7,24 @@
     <loc>https://reviewpocketshorts.com/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <lastmod>2026-03-02</lastmod>
+    <lastmod>2026-03-16</lastmod>
   </url>
 
   <!-- Product Pages -->
   <!-- BEGIN_PRODUCTS -->
 
+  <url>
+    <loc>https://reviewpocketshorts.com/products/B0CVKM5MMH.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-16</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/n8-UhspXeCg/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Beauty of Joseon Dynasty Cream Hydrating Face Moisturizer for Dry, Sensitive Skin, Korean Skincare for Men and Women 100ml, 3.38 fl.oz — Review</video:title>
+      <video:description>Are you ready to transform your skincare routine? Let me introduce you to the Beauty of Joseon Dynasty Cream! This hydrating face moisturizer is perfect for both dry and sensitive skin, and guess what.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/n8-UhspXeCg</video:player_loc>
+    </video:video>
+  </url>
   <url>
     <loc>https://reviewpocketshorts.com/products/B07CY4BVRL.html</loc>
     <changefreq>weekly</changefreq>
