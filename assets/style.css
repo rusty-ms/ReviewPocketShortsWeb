@@ -229,6 +229,14 @@ a:hover { color: var(--gold-dk); text-decoration: underline; }
 
 .hero-cta { display: flex; gap: 0.75rem; flex-wrap: wrap; }
 
+/* ── Ad Slot ─────────────────────────────────── */
+.ad-slot {
+  display: block;
+  margin: 1.5rem auto;
+  min-height: 100px;
+  text-align: center;
+}
+
 /* ── Trending Section ───────────────────────── */
 .trending-section {
   padding: 3.5rem 0;

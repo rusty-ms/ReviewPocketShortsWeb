@@ -1,0 +1,6 @@
+# ads.txt — required by AdSense to confirm you're authorized to sell ad
+# inventory on this domain. Replace pub-XXXXXXXXXXXXXXXX with your real
+# AdSense publisher ID (Account → Settings → Account information) once
+# your application is approved, then uncomment the line below.
+#
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
